@@ -9,6 +9,9 @@ class ArticlesController < ApplicationController
   def new
    @article = Article.new
   end
+  def edit
+    @article = Article.find(params[:id])
+  end
   def create
   @article = Article.new(params[:article])
   @article.save
@@ -16,7 +19,9 @@ class ArticlesController < ApplicationController
   end
   def destroy
     @article = Article.find(params[:id])
-    # @article.destroy
+
+    @article.destroy
+    redirect_to articles_path
   end
 
 end
