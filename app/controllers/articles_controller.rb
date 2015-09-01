@@ -11,7 +11,7 @@ class ArticlesController < ApplicationController
   end
   def new
    @article = Article.new
-   
+
   end
   def edit
     @article = Article.find(params[:id])
@@ -21,6 +21,7 @@ class ArticlesController < ApplicationController
     @article.save
     flash.notice = "Article '#{@article.title}' created!"
     redirect_to article_path(@article)
+
 
   end
   def update
