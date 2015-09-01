@@ -1,1 +1,1 @@
-This is an application that I used to help me understand more about the ruby on rails fammework.
+This is a simple blog application that I used to help me understand more about the ruby on rails frammework.
