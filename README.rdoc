@@ -1,1 +1,2 @@
 This is a simple blog application that I used to help me understand more about the ruby on rails frammework.
+It is an app that uses the Sorcery gem for authentication
