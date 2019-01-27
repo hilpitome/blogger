@@ -1,2 +1,2 @@
--This is an an online store app based on the ruby on rails frammework.
+-This is an online store app based on the ruby on rails frammework.
 -It is an app that uses the Sorcery gem for authentication
